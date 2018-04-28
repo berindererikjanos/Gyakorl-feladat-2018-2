@@ -15,3 +15,5 @@ s1 = input()
 s2 = input()
 
 print(anagramma_e(s1,s2))
+
+#anagramma gyakorló
