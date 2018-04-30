@@ -1,0 +1,23 @@
+#Exercise
+#Write a Python program to find whether a given number (accept from the user until the
+#number not equal with 0) is even or odd, print out an appropriate message to the user.
+
+#folyamatosan kell számokat bekérni, azaz folyamatosan ugyanazt a műveletet kell elvégzni AMÍG a szám 0 nem lesz
+#ciklus: ugyanazt az utasítást(utasításokat) végzik el többször.
+#for: előre meghatározott lépésszámmal rendelkezik
+#while: egy feltétel igazságától fugg
+
+while True:
+
+    s = input("Adjon meg egy szamot ") #input függvény mindig stringként kéri be a bemenetet
+    n = int(s) #nekünk még át kell számmá alakítani
+
+    if n == 0: #ha a szám 0 akkor lépjen ki a ciklusból. a break ciklusból lép ki és folytatja tovább  működést a ciklus után
+        break
+
+    if n%2 == 0:
+        print("A szam paros!")
+    else:
+        print("A szam paratlan")
+
+print("Vege") #a break után itt folytatódik tovább
