@@ -1,5 +1,5 @@
 #Kérjen két szót, és írja ki, hogy anagrammák-e.
-#Két szó anagramma, ha ugyanazokból a betűkből áll
+#Két szó anagramma, ha ugyanazokból a betűkből áll.
 
 def anagramma_e(s1,s2):
     s1_rendezve = sorted(s1) #ABC sorrendbe rendezi a betűket, és az eredményt egy új stringbe menti
