@@ -10,4 +10,4 @@ try:
 
 
 except FileNotFoundError:
-    print("Nem letezik az adott fajl!")
+    print("Nem letezik az adott fajl!") 
